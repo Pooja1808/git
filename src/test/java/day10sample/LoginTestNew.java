@@ -41,10 +41,10 @@ public class LoginTestNew {
  @DataProvider(name="loginData")
  public Object[][] getData() throws CsvValidationException, IOException
  {
-	 String path = System.getProperty("user.der") + 
-			 "//src//test//resources//testdata//loginData.csv";
-	 CSVReader reader = new CSVReader(new FileReader(path));
-	 String str[];
+	// String path = System.getProperty("user.dir") + 
+		//	 "//src//test//resources//testdata//loginData.csv";
+	 //CSVReader reader = new CSVReader(new FileReader(path));
+	 //String str[];
 	 ArrayList<Object> dataList = new ArrayList<Object>();
 	 while(str = reader.readNext()!=null)
 	 {
